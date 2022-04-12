@@ -7,8 +7,7 @@
   "scripts": {
     "devstart": "nodemon server.js",
     "prodstart": "node server.js",
-    "test": "jest --testTimeout=10000",
-    "heroku-postbuild": "cd frontend && npm install && npm run build"
+    "test": "jest --testTimeout=10000"
   },
   "repository": {
     "type": "git",
