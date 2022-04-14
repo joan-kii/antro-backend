@@ -2,7 +2,8 @@
 
 A kind of social media app!
 
-Live preview at: 
+Live preview at: [Antro](https://joan-kii.github.io/antro-frontend/#)
+Check the frontend [here](https://github.com/joan-kii/antro-frontend)
 
 ### Built with
  - Node.js
