@@ -7,14 +7,12 @@ import isAuthenticated from '../middleware/isAuthenticated.js';
 const router = express.Router();
 
 // Wake up server
-router.get('/wakeup', async (req, res, next) => {
-  if (process.env._.indexOf("heroku") !== -1) {
-    res.status(200).json({
-      success: true,
-      message: 'Ready!', 
-      payload: null
-    });
-  }
+router.get('/wakeup', (req, res, next) => {
+  res.status(200).json({
+    success: true,
+    message: 'Ready!', 
+    payload: null
+  });
 });
 
 // User Log In
