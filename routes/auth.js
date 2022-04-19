@@ -8,12 +8,12 @@ const router = express.Router();
 
 // Wake up server
 router.get('/wakeup', async (req, res, next) => {
-  if (process.env._ && process.env._.indexOf("heroku") !== -1) {
-      res.status(200).json({
-    success: true,
-    message: 'Ready!', 
-    payload: null
-    })
+  if (process.env._.indexOf("heroku") !== -1) {
+    res.status(200).json({
+      success: true,
+      message: 'Ready!', 
+      payload: null
+    });
   }
 });
 
