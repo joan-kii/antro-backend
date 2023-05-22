@@ -12,7 +12,7 @@ services:
       - key: AVATAR_API # Imported from Heroku app
         value: https://i.pravatar.cc/50?img&#x3D;
       - key: CLIENT_URL # Imported from Heroku app
-        value: https://joan-kii.github.io
+        value: https://joan-kii.github.io;
       - key: EXAMPLE_USER_EMAIL # Imported from Heroku app
         value: "joedoe@antro.com";
       - key: EXAMPLE_USER_ID # Imported from Heroku app
