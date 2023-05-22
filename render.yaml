@@ -14,13 +14,13 @@ services:
       - key: CLIENT_URL # Imported from Heroku app
         value: https://joan-kii.github.io
       - key: EXAMPLE_USER_EMAIL # Imported from Heroku app
-        value: &quot;joedoe@antro.com&quot;
+        value: "joedoe@antro.com";
       - key: EXAMPLE_USER_ID # Imported from Heroku app
         value: 61ca9c721305489b65e32def
       - key: EXAMPLE_USER_POST_ID # Imported from Heroku app
         value: 61c4a6e52b8f46c687ea1997
       - key: EXAMPLE_USER_USERNAME # Imported from Heroku app
-        value: &quot;Joey&quot;
+        value: "Joey";
       - key: FACEBOOK_APP_ID # Imported from Heroku app
         value: 437499264599232
       - key: FACEBOOK_CB_URL # Imported from Heroku app
