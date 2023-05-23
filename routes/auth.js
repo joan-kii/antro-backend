@@ -8,6 +8,7 @@ const router = express.Router();
 
 // Wake up server
 router.get('/wakeup', (req, res, next) => {
+  console.log('ready'),
   res.status(200).json({
     success: true,
     message: 'Ready!', 
