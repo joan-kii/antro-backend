@@ -37,7 +37,7 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-  console.log(err.message, 'lol');
+  console.log(err.message);
   res.status(err.status);
   res.json(err);
 });
